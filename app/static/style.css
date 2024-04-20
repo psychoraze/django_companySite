@@ -2,18 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #f4f4f4;
 }
 
-header {
-    background-color: #ff0000;
-    padding: 20px 0;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+nav {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
 }

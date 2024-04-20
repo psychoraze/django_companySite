@@ -1,9 +1,8 @@
 from django.urls import path
-from .views import home, about, contact
-from django.urls import reverse_lazy
+from . import views
 
 urlpatterns = [
-    path("", reverse_lazy(home), name="home"),
-    path("about/", reverse_lazy(about), name="about"),
-    path("contact/", reverse_lazy(contact), name="contact"),
+    path("", views.home, name="home"),
+    path("about/", views.about, name="about"),
+    path("contacts/", views.contacts, name="contacts"),
 ]
